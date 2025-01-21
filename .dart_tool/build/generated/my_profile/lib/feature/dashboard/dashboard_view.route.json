@@ -1,0 +1,1 @@
+{"routes":[{"name":null,"pathParams":[],"pageType":{"import":"package:my_profile/feature/dashboard/dashboard_view.dart","name":"DashboardView","isNullable":false,"isRecordType":false},"className":"DashboardView","parameters":[],"hasWrappedRoute":false,"hasConstConstructor":true,"deferredLoading":null}],"inputPath":"lib/feature/dashboard/dashboard_view.dart","inputHash":0}

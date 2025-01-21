@@ -1,0 +1,1 @@
+{"routes":[{"name":null,"pathParams":[],"pageType":{"import":"package:my_profile/feature/user_info/user_view.dart","name":"UserView","isNullable":false,"isRecordType":false},"className":"UserView","parameters":[],"hasWrappedRoute":false,"hasConstConstructor":true,"deferredLoading":null}],"inputPath":"lib/feature/user_info/user_view.dart","inputHash":0}
