@@ -1,3 +1,29 @@
 .dart_tool/package_config.json
 build/036067fc19ac691df227a955c8c24651/_composite.stamp
 build/036067fc19ac691df227a955c8c24651/gen_localizations.stamp
+.dart_tool/flutter_build/474546d0ec23be7b9141133f7f7c1dde/app.dill
+.dart_tool/flutter_build/474546d0ec23be7b9141133f7f7c1dde/debug_ios_bundle_flutter_assets.stamp
+.dart_tool/flutter_build/474546d0ec23be7b9141133f7f7c1dde/debug_unpack_ios.stamp
+build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Headers/FlutterViewController.h
+
+flutter run -d chrome --web-browser-flag "--disable-web-security"
+//auto generated json,files,routes
+flutter pub run build_runner build 
+
+dart fix --apply --code=unused_import
+flutter build apk
+
+
+## Generation
+
+```bash 
+dart run build_runner clean && dart pub run build_runner watch --delete-conflicting-outputs
+```
+## Hard reset folder
+```bash 
+git clean -fd
+```
+## Hard reset codeP
+```bash 
+ git reset --hard HEAD
+ ```

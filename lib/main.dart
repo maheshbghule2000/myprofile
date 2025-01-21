@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:my_profile/constant/app_strings.dart';
+import 'package:my_profile/utils/theme.dart';
 import 'routes/routes.dart';
 
 void main() {
@@ -18,11 +18,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp.router(
         debugShowCheckedModeBanner: false,
         title: 'Easy Grow Business',
-        theme: ThemeData(
-          fontFamily: AppStrings.fontFamily,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
+        theme: AppTheme.lightTheme,
         routerConfig: _appRouter.config(),
       ),
     );
